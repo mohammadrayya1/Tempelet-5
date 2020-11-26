@@ -1,0 +1,352 @@
+body
+{height: 7000px;
+    background-color: #4b379a;
+
+}
+
+*
+{
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+}
+.col-lg-10
+{
+    
+   
+}
+.container
+{
+   max-width: 1200px;
+    margin: 100px auto;
+    height: 600px;
+position: relative;
+margin-bottom: 0;
+}
+.row1
+{
+    max-width:1200px ;
+    height: 100%;
+    background-size: cover;  
+    background-color: white;
+}
+.row
+{
+  background-image: url('../Images/header-bg.jpg');
+  height: 100%;
+  background-size: cover;
+}
+.row::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 100%;
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    opacity: 0.6;
+    
+}
+
+.container .col-lg-12 .menu 
+{
+    color: #FFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.log
+{
+    width: 30%;
+}
+
+.container .content
+{
+margin-top: 10px;
+width: 75%;
+height: 50px;
+
+position: relative;
+}
+
+
+.container .content .top1
+{
+ text-align: right;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+right: 0;
+
+z-index:1 ;
+padding-right: 50px;
+transition: 0.3s all;
+
+}
+
+
+
+.container .content .top1 ul
+{
+    list-style: none;
+    margin-top: 5px;
+    
+}
+.container .content .top1 ul li
+{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+    
+}
+.container .content .top1 ul li i
+{
+  font-size: 30px;
+  margin-left: 50px;
+    
+}
+.container .content .top1 ul li i:hover
+{
+cursor: pointer;
+}
+
+.container .content .bottom
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+    z-index:2;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 10px;
+   
+
+}
+
+.container .content .bottom i
+{
+    color: white;
+    font-size: 25px;
+}
+.container .content .bottom i:hover
+{
+    cursor: pointer;
+}
+.hid
+{
+    display: none;
+}
+
+.show
+{
+    display: block;
+}
+
+.conta
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+    justify-self: center;
+    align-items: center;
+}
+.conta p
+{
+    font-size: 20px;
+}
+
+.conta h1
+{
+    font-size: 150px;
+    margin-top: -30px;
+}
+
+ .span1
+{
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    border-radius:15px;
+    line-height: 40px;
+    border:  1px solid white;
+}
+.span2
+{
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+    display: block;
+    width: 170px;
+    height: 40px;
+    border-radius:20px;
+    line-height: 40px;
+    border:  1px solid white;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+  
+}
+.conta span i
+{
+    margin-left: 5px;
+}
+.conta span:hover
+{
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    border: 1px solid transparen;
+}
+
+.trent
+{
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    max-width: 1200px;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+    ;
+}
+.media
+{
+    margin-top: 100px;
+    padding: 30px;
+}
+.media h1
+{
+    font-weight: 100;
+}
+.media p 
+{
+    font-size: 30px;
+}
+.media p span
+{
+    font-weight: bold;
+    
+}
+.row2
+{   max-width:1200px ;
+    height: 100%;
+    background-size: cover;  
+    background-image: url(../Images/parallux-bg.jpg);
+background-attachment: fixed;
+}
+
+
+.row2 .media-body
+{
+    color: white;
+    
+}
+
+.row3
+{
+    flex-wrap: wrap;
+    max-width:1200px ;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    padding:50px
+
+ 
+}
+.row3 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.row3 .ss
+{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 97%;
+height: 0px;
+transition: 0.3s all ease-in;
+background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+opacity: 0.5;
+overflow: hidden;
+
+color: white;
+padding-left: 30px;
+}
+.row3 .ss h5
+{
+margin-top: 30px;
+cursor: #FFF;
+}
+
+.row3 .col-lg-6{
+
+padding-left: 0px;
+}
+.row3 .col-lg-6:hover .ss
+{
+    height: 100%;
+}
+
+/*=====================*/
+
+    .cona
+    {
+        text-align: center;
+    }
+    .ff
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+    }
+    .content5 input
+    {
+        border: 1px solid white;
+        background: none;
+        width: 39%;
+        margin-right: 10px;
+        height: 35px;
+    }
+    .content5
+    {
+        text-align: center;
+    }
+
+
+    textarea 
+    {padding-top: 20px;
+        color: white;
+        padding-left: 20px;
+        background: none;
+        width: 900px;
+        height: 200px;
+        display: block;
+        margin-top: 20px;
+       margin-left: 10%;
+       border: 1px solid white;
+    }
+
+
+    .content5 .span2
+    {
+       text-align: center;
+       padding-top: 0;
+       margin-left: auto;
+
+    }
